@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:layout_marginBottom="8dp"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/iv_raw"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@id/iv_raw"
+        android:text="花光最后一笔泡面钱，买一张伦勃朗"/>
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:text="苏小化，生于94年的艺术藏家，拥有国内最好的浮世绘原作，以及一系列珍贵西方版画作品，甚至藏有丢勒神级作品《忧郁》和《书房中的圣哲罗姆》。平时，他扎丸子头，穿一身黑，酷爱篮球。但只要与他谈及艺术收藏，苏小化的言谈举止就变得如同长者，仿佛触及了他人生里隐秘的另一面。"
+        android:lineSpacingExtra="4dp"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:textSize="12sp" />
+
+</RelativeLayout>

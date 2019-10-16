@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:layout_marginBottom="8dp"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/iv_raw"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@id/iv_raw"
+        android:text="找到吕乐"/>
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:text="吕乐觉得电影早就回到了“野兔子”时代，而且，连“野兔子”也没有太多可打了。"
+        android:lineSpacingExtra="4dp"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:textSize="12sp" />
+
+</RelativeLayout>

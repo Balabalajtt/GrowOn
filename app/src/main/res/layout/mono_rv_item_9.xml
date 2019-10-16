@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:layout_marginBottom="8dp"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_img"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="@color/colorWhite"
+        android:text="17张图"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_img"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="秋"/>
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:text="每天似乎都有大事发生，但它离你的内心很远。愤恨、空谈是无用的，这只能显示出人这种动物的各种嘴脸。学会沉默，明辨事理，远离喧嚣，凭自己的能力去做好哪怕是最细小的事。秋天让人看淡一切。就带着寂寥的心情去聆听，去欣赏。学会欣赏很重要，欣赏人，欣赏物，欣赏世界的细部。就如塞尔吉奥·拉莱这张照片，只拍了一片树叶，看似很平淡，到底好在哪里呢？如果仔细观察，你会看到远处的大桥，近处的堤岸，这无形中的两条斜线，使得照片获得了纵深感；尤其是，向左的轮船，向右的汽车，和一片也指向左右两个方向的树叶形成了对比。这正是寂静：属于世界，也属于任何朴素伟大的心。"
+        android:textSize="12sp"
+        android:maxLines="4"
+        android:lineSpacingExtra="4dp"
+        android:ellipsize="end"/>
+
+</RelativeLayout>

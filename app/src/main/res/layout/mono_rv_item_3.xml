@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:layout_marginBottom="8dp"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:text="发电站 | 日本" />
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginTop="4dp"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:text="日本废弃的发电站，经过时间的洗礼，最终被自然吞噬。（via @z20soarerkai） \u200b\u200b\u200b\u200b" />
+
+    <com.utte.growon.mono.MonoGridView
+        android:id="@+id/gv_pics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:numColumns="auto_fit"
+        android:columnWidth="124dp"
+        android:verticalSpacing="4dp"
+        android:horizontalSpacing="4dp"/>
+
+</LinearLayout>

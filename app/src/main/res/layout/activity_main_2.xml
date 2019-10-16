@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1px"
+        android:background="@color/colorBlack"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/first"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="24dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/one"
+                android:background="@color/colorBlack"/>
+
+
+            <ImageButton
+                android:id="@+id/second"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="24dp"
+                android:src="@drawable/mono"
+                android:scaleType="fitCenter"
+                android:background="@color/colorBlack"/>
+
+
+            <ImageButton
+                android:id="@+id/third"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="24dp"
+                android:src="@drawable/kaiyan"
+                android:scaleType="fitCenter"
+                android:background="@color/colorBlack"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
